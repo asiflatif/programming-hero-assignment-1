@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    background: #ffffff;
+    color: #005FAC;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 230px;
+    text-align: end;
+    padding-top: 216px;
+}
+
+.banner-subtitle {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76.25px;
+    color: #ffffff;
+}
+
+.banner-description {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.header {
+    background-color: #fff8f3;
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+
+/* about section styles */
+.achievements {
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.achievements > .section-title {
+    color: #005FAC;
+}
+
+.section-description {
+    color: #5096cf;
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 700;
+}
+
+.info-description {
+    font-size: 20px;
+    color: #474747;
+    margin-top: 5px;
+}
+
+
+/* failure section styles */
+
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 130px 0px;
+}
+
+.failure-box>.section-title {
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-box>.failure-subtitle {
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.failure-box>.failure-points {
+    color: #444343;
+}
+
+.failure-points > p {
+    margin-bottom: 8px;
+}
+
+.fa-check {
+    color: #16D887;
+}
+
+/* what i do styles */
+
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.plans {
+    background: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.plans-description {
+    color: #737272;
+}
+
+.what-i-do>.section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+/* call section */
+
+.call {
+    height: 300px;
+    margin-bottom: 130px;
+}
+
+.call-gradient {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    height: 300px;
+}
+
+.call-background {
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.call-body {
+    padding: 59px 64px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+/* future section */
+
+footer {
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.future {
+    display: flex;
+    gap: 331px;
+    justify-content: center;
+}
+
+.future-icons {
+    display: flex;
+    gap: 17px;
+    margin-top: 32px;
+}
+
+.future-description>p {
+    color: white;
+    line-height: 26px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 31px;
+}
+
+#email-text-box {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+}
+
+input::placeholder {
+    color: #F3F3F3;
+    padding: 21px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input {
+    height: 64px;
+}
+
+form>.btn-primary {
+    background: #005FAC;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
